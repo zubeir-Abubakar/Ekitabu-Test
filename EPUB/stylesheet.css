@@ -1,6 +1,6 @@
 #img{
   width: 400px;
-  height: 350px;
+  height: 400px;
 }
 .conateiner{
   display: flex;
@@ -8,14 +8,18 @@
   margin-left: 15%;
 }
 p{
-  width: 75%;
+  width: 80%;
 }
 body{
   align-content: center;
   margin: auto;
+  font-size: larger;
 }
 select{
-	background-color: blue;
+  background-color: maroon;
+  color: aliceblue;
+  font-size: large;
+  font-style: italic;
 }
 #ch02{
   	align-content: center;
