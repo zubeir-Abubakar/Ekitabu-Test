@@ -1,0 +1,23 @@
+#img{
+  width: 400px;
+  height: 350px;
+}
+.conateiner{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 15%;
+}
+p{
+  width: 75%;
+}
+body{
+  align-content: center;
+  margin: auto;
+}
+select{
+	background-color: blue;
+}
+#ch02{
+  	align-content: center;
+	margin-left: 25%;
+}
