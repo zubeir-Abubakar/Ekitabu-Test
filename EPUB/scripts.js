@@ -63,22 +63,3 @@ function myFunction(){
 		 document.getElementById("kat4").innerHTML="1/1";
 	}
 }
-
-// ----------------------------------------------
-
-function myFunction(){
-    var answer1=parseInt(document.getElementById('in1').value);
-    var answer2=parseInt(document.getElementById('in2').value);
-    var answer3=parseInt(document.getElementById('in3').value);
-    var answer4=parseInt(document.getElementById('in4').value);
-    var answer5=parseInt(document.getElementById('in5').value);
-     
-    var res1=answer1.upperCase();
-    var res2=answer2.upperCase();
-    var res3=answer3.upperCase();
-    var res4=answer4.upperCase();
-    var res5=answer5.upperCase();
-if(res1 === "KADWEKA"){
-	alert("great")
-}
-};
