@@ -63,3 +63,6 @@ function myFunction(){
 		 document.getElementById("kat4").innerHTML="1/1";
 	}
 }
+
+
+

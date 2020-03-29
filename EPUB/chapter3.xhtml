@@ -10,29 +10,65 @@
 	<div class="chapter" id="ch02">
 		<section role="doc-chapter" class="chapter" title="The Rain Bird" epub:type="chapter" id="ch01a">
 			<p class="pagebreak">&#x00A0;</p>
-<div class="kenya">
+<div class="kenya" id="quiz" name="quiz">
 	<span><strong>1).</strong><em>Who will go to a new school?</em></span>
-	<input id='in1'  type='text'></input>
+	<input id='in1' name="question1" type='text' ></input>
 	<br></br>
 	<span><strong>2).</strong><em>What game can Kobe play?</em></span>
-	<input id='in2' type='text'></input>
+	<input id='in2' name="question2" type='text' ></input>
 	<br></br>
 	<span><strong>3).</strong><em>What do boy scouts and girl guide do at the assembly?</em></span>
-	<input id='in3' type='text'></input>
+	<input id='in3' name="question3" type='text' ></input>
 	<br></br>
 	<span><strong>4).</strong><strong></strong><em>Who woke up Kobe?</em></span>
-	<input id='in4' type='text'></input>
+	<input id='in4'  name="question4" type='text' ></input>
 	<br></br>
 	<span><strong>5).</strong><em>What do you think Kobe did when hw woke up?</em></span>
-	<input id='in5' type='text'></input>
+	<input id='in5' name="question5" type='text'  ></input>
 	<br></br>
 	<div>
-		<button>Submit</button> 
+		<button  id="button" value="check my results" onclick="check();" >Submit</button> 
 		<p> Your score is :0/5</p>
 	</div>
+</div>
+
+	<div id="after_submit">
+		<P id="number-correct"></P>
 	</div>	
 </section>
 </div>
-	<script src="scripts.js"></script>
+	<script>
+function check(){
+
+var question1 = document.quiz.question1;
+var question2 = document.quiz.question2;
+var question3 = document.quiz.question3;
+var question4 = document.quiz.question4;
+var question5 = document.quiz.question5;
+var correct = 0;
+if(question1 == "Kobe") {
+    return correct + 1;
+}
+if(question2 == " socccer || volley || handball") {
+    return  correct + 1;
+}
+if(question3 == "rise the flag") {
+    return correct + 1;
+}
+if(question4 == "his mother") {
+    return  correct + 1;
+}
+if(question5 == "went to shower") {
+    return correct + 1;
+}
+else{
+	return 0;
+}
+		 }
+document.getElementById("after_submit").style.visibility="visible";
+
+document.getElementById("number-correct").innerHTML = "You got  " + correct 
+	
+	</script>
 </body>
 </html>
