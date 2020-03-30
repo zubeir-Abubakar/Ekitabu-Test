@@ -5,7 +5,7 @@
 .conateiner{
   display: flex;
   justify-content: space-around;
-  margin-left: 15%;
+  margin-left: 10%;
 }
 p{
   width: 80%;
@@ -21,7 +21,7 @@ select{
   font-size: large;
   font-style: italic;
 }
-#ch02{
+#chapter02{
   	align-content: center;
-	margin-left: 25%;
+	margin-left: 15%;
 }
