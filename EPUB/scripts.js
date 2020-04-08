@@ -1,4 +1,3 @@
-//first questions
 
 function myFunction(){
 	var s = document.getElementById('question1');
@@ -15,7 +14,6 @@ function myFunction(){
 	}
 }
 
-//second question
 function myFunction(){
 	var s = document.getElementById('question2');
 	var question2 = s.options[s.selectedIndex].value;
@@ -31,7 +29,6 @@ function myFunction(){
 	}
 }
 
-//third question
 function myFunction(){
 	var s = document.getElementById('question3');
 	var question3 = s.options[s.selectedIndex].value;
@@ -47,7 +44,6 @@ function myFunction(){
 	}
 }
 
-//fourth question
 
 function myFunction(){
 	var s = document.getElementById('question4');
